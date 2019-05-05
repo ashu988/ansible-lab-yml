@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /var/www/html/
+sudo find /code_backup/* -mtime +15 -exec mv {} /code_backup \;
